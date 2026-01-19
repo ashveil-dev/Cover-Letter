@@ -11,7 +11,7 @@ function App() {
           <div className="flex flex-col gap-2 md:gap-0 mb-5">
             <div className="flex flex-col md:flex-row gap-2 md:gap-4 items-center md:mb-2">
               <h2 className="text-4xl font-bold">장동건</h2>
-              <h3 className="text-3xl text-FairyBlue/60 font-bold">Frontend Developer</h3>
+              <h3 className="text-2xl text-FairyBlue/60 font-bold">Frontend Developer</h3>
             </div>
             <div className="flex justify-center md:justify-start gap-2">
               <span className="text-RoyalAmethyst font-bold text-sm">React</span>
@@ -62,9 +62,30 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="flex flex-col gap-2 bg-white p-4">
+        <h2 className="text-2xl font-semibold">학력</h2>
+        <div>
+          <div className="flex items-center gap-4">
+            <span className="text-sm text-gray-500">2021-07 ~ 2021-10</span>
+            <span className="font-bold">선린인터넷고등학교 정보통신공학과 졸업</span>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="flex flex-col gap-2 bg-white p-4">
+        <h2 className="text-2xl font-semibold">자격증
+
+        </h2>
+        <div>
+          <div className="flex items-center gap-4">
+            <span className="text-sm text-gray-500">2021-07 ~ 2021-10</span>
+            <span className="font-bold">토익 650</span>
+          </div>
+        </div>
+      </div> */}
 
       <div className="flex flex-col gap-2 bg-white p-4">
-        <h2 className="text-3xl font-semibold">경력</h2>
+        <h2 className="text-2xl font-semibold">경력</h2>
         <div>
           <div className="flex flex-col gap-2 flex-wrap border-b border-b-gray-200 pb-5">
             <div className="flex items-center gap-2 pl-2">
@@ -119,15 +140,60 @@ function App() {
       </div>
 
       <div className="flex flex-col gap-2 bg-white p-4">
-        <h2 className="text-3xl font-semibold">학력</h2>
+        <h2 className="text-2xl font-semibold">포트폴리오</h2>
         <div>
-          <div className="flex items-center gap-4">
-            <span className="text-sm text-gray-500">2021-07 ~ 2021-10</span>
-            <span className="font-bold">선린인터넷고등학교 정보통신공학과 졸업</span>
+          <div className="flex flex-col gap-2 flex-wrap border-b border-b-gray-200 pb-5">
+            <div className="flex items-center gap-2 pl-2">
+              <span className="text-sm text-gray-500">2021-07 ~ 2021-10</span>
+              <b><a href="https://ashveil-dev.github.io/Calendar/">달력</a></b>
+            </div>
+            <p className="text-sm pl-2 leading-6">
+              jQuery를 이용하여 현재 시간을 기반으로 달력을 출력합니다. <br />
+              각 달의 고정된 일을 통해 달력을 출력하며, 윤년에만 바뀌는 2월달 날짜는 다르게 계산합니다 <br />
+            </p>
+          </div>
+        </div>
+        <div>
+          <div className="flex flex-col gap-2 flex-wrap border-b border-b-gray-200 pb-5">
+            <div className="flex items-center gap-2 pl-2">
+              <span className="text-sm text-gray-500">2021-07 ~ 2021-10</span>
+              <b><a href="https://dunzae.github.io/#/">블로그</a></b>
+            </div>
+            <p className="text-sm pl-2 leading-6">
+              편집기에 글을 쓰고 글을 공유할 수 있습니다. <br />
+              로그인과 회원가입을 할 수 있습니다. <br />
+            </p>
+          </div>
+        </div>
+        <div>
+          <div className="flex flex-col gap-2 flex-wrap border-b border-b-gray-200 pb-5">
+            <div className="flex items-center gap-2 pl-2">
+              <span className="text-sm text-gray-500">2024-12 ~ 2025-05</span>
+              <span>인스타그램 클론 코딩하기</span>
+            </div>
+            <p className="text-sm pl-2 leading-6">
+              프론트엔드는 리액트로, 백엔드는 Node.js로 구현하였습니다. <br />
+              로그인/회원가입, 스토리 올리기 기능을 구현하였습니다. <br />
+              좋아요 및 댓글 기능도 구현하였습니다. <br />
+            </p>
+          </div>
+        </div>
+        <div>
+          <div className="flex flex-col gap-2 flex-wrap border-b border-b-gray-200 pb-5">
+            <div className="flex items-center gap-2 pl-2">
+              <span className="text-sm text-gray-500">2024-12 ~ 2025-05</span>
+              <b><a href="https://ashveil-dev.github.io/MatchCock/">매치콕 (배드민턴 경기 시간표 만들기)</a></b>
+            </div>
+            <p className="text-sm pl-2 leading-6">
+              스포넷에 있는 정보를 조합하여 제가 원하는 클럽의 선수 명단만을 추려 <br/>
+              경기 시간표를 볼 수 있습니다. V1, V2로 최근에 업그레이드 하였습니다. <br />
+              대회검색, 선수/클럽 검색, 시간표 출력 기능을 가지고 있습니다.
+            </p>
           </div>
         </div>
       </div>
     </div>
+
   )
 }
 
